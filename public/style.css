@@ -80,6 +80,14 @@ h1, h3 {
     margin: 0 auto;
 }
 
+#SX_img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 #desc {
     text-align: center;
     font-size: large;
