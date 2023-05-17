@@ -1,5 +1,9 @@
+body {
+    background-color: rgb(119, 136, 153);
+}
+
 h1 {
-    color: rgb(95, 95, 95);
+    color: lightblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
