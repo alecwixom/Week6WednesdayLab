@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: rgb(119, 136, 153);
 }
 
@@ -43,4 +43,59 @@ h3 {
     text-align: center;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+body {
+    background-color: rgb(119, 136, 153);
+}
+
+#sec2 {
+    border-top: 1px;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-color: black;
+    border-style: solid;
+}
+
+h1, h3 {
+    color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#lexus_img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#supra_img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#desc {
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    #lexus_img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #supra_img {
+        max-width: 100%;
+        height: auto;
+    }
 }
