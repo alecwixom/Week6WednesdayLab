@@ -38,6 +38,11 @@ h1, h3 {
     margin: 0 auto;
 }
 
+#supra{
+    display: flex;
+    margin: 0 auto;
+}
+
 #SX_img {
     width: 100%;
     max-width: 650px;
@@ -46,11 +51,21 @@ h1, h3 {
     margin: 0 auto;
 }
 
+#nissan {
+    display: flex;
+    margin: 0 auto;
+}
+
 #skyline_img {
     width: 100%;
     max-width: 650px;
     height: auto;
     display: block;
+    margin: 0 auto;
+}
+
+#skyline {
+    display: flex;
     margin: 0 auto;
 }
 
