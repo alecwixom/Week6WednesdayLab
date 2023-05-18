@@ -4,6 +4,17 @@ const app = express()
 app.use(express.json())
 app.use(express.static(__dirname + '/public'))
 
+// include and initialize the rollbar library with your access token
+var Rollbar = require('rollbar')
+var rollbar = new Rollbar({
+  accessToken: '561c3578023944d682991e487e055f4b',
+  captureUncaught: true,
+  captureUnhandledRejections: true,
+})
+
+// record a generic message and send it to Rollbar
+rollbar.log('Hello world!')
+
 app.listen(4001, () => {
     console.log('Were up on 4001!');
 })
