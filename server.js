@@ -14,8 +14,6 @@ var rollbar = new Rollbar({
 
 // record a generic message and send it to Rollbar
 rollbar.log('Hello world!')
-rollbar.critical('Critical ERROR test')
-rollbar.warning('Warning Test')
 
 app.listen(4001, () => {
     console.log('Were up on 4001!');
